@@ -1,0 +1,45 @@
+body{
+
+    background-color: lightblue;
+}
+
+h1{
+
+    color: navy;
+    margin-left: 20px;
+}
+
+.testClass{
+
+    color: red;
+    font-size: 300%;
+}
+
+/* comentarios CSS y uso de otros sintaxys 
+
+p {
+    text-align: center;
+    color: red;
+}
+
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+p.testClass {
+    text-align: center;
+    color: red;
+}
+
+* {
+    text-align: center;
+    color: blue;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
+
+*/

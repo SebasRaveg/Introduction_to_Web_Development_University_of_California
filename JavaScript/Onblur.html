@@ -1,0 +1,38 @@
+<html>
+<head>
+
+    <title> Onblur </title>
+
+    <script>
+
+        function checkField1()
+        {
+            var field= document.getElementById("Field1").value;
+
+            if(field.length < 5) //!= No equal (Que la persona no sea igual)
+            {
+                document.getElementById("message1").innerHTML= "Too short!";
+
+            }
+            else
+            {
+                document.getElementById("message2").innerHTML= "That's long enough";
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <p> JavaScript Onblur Tests. </p>
+
+    <input id="Field1" type="text" onblur="checkField1();"/> <span id="message1"> </span>
+    <input id="Field1" type="text"/> <span id="message2"> </span>
+    <input id="Field1" type="text"/> <span id="message3"> </span>
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+<head>
+
+    <title> Testing JavaScript </title>
+
+    <link rel ="stylesheet" type = "text/css" href= "Basico.css">
+
+    <script>
+
+        function doMath()
+        {
+            var x = 2;
+            var y = 10;
+            var answer = x*y/z;
+            var z = 4;
+            
+
+            document.getElementById("output").innerHTML= "The result is " + answer;
+        }
+
+    </script>
+
+    <!-- CSS Internal o Local Style -->>
+    <style type = "text/css">
+        
+        /* comentario CSS */
+        p.regular {color:blue; font-size:100%} 
+        p.medium {color:green; font-size:150%}
+
+    </style>
+
+</head>
+
+<body>
+
+    <p> JavaScript Testing. </p>
+    <button onclick="doMath();"> Do the Math </button>
+
+    <!-- CSS Inline Style -->
+    <p id="output" style="color:green; font-size:200%;"></p>
+
+    <!-- Se declara la clase de estilo que se quiere usar -->
+    <p class= "regular"> This is a regular text </p>
+    <p class= "testClass"> This is a medium text </p>
+
+
+</body>
+</html>

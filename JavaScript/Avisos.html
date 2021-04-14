@@ -1,0 +1,37 @@
+<html>
+<head>
+
+    <title> Prompt Page </title>
+
+    <script>
+
+        function myPrompt()
+        {
+            var person= prompt("Please enter your name", "Sebas");
+
+            if(person !="") //!= No equal (Que la persona no sea igual)
+            {
+                document.getElementById("test").innerHTML= "Hello " + person + " !How are you today?";
+
+            }
+            else
+            {
+                alert("Hey, no input!");
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <p> JavaScript Prompt Box. </p>
+
+    <button onclick="myPrompt()"> Click me </button>
+
+    <p id="test"></p>
+    
+</body>
+</html>
